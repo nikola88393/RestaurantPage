@@ -44,3 +44,21 @@ footer {
     /* margin-top: 30px; */
     max-width: 80%;
 }
+
+.gridContainer {
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+
+}
+
+.menuCard {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}

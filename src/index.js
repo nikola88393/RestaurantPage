@@ -1,5 +1,7 @@
 import "./style.css";
 import generateHome from "./generateHome";
+import generateMenu from "./generateMenu";
 
-generateHome();
+// generateHome();
+generateMenu();
 console.log("working");
