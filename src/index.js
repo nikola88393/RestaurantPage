@@ -1,7 +1,9 @@
 import "./style.css";
 import generateHome from "./generateHome";
 import generateMenu from "./generateMenu";
+import generateContacts from "./generateContacts";
 
 // generateHome();
-generateMenu();
+// generateMenu();
+generateContacts();
 console.log("working");
