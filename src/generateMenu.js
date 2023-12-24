@@ -8,7 +8,7 @@ function generateMenu() {
     let gridContainer = document.createElement('div');
     gridContainer.classList.add('gridContainer');
 
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < 5; i++) {
         let div = document.createElement('div');
         div.classList.add('menuCard');
 
